@@ -1,0 +1,13 @@
+@import "tailwindcss";
+.bg-lightlime-200
+{
+  background-color:#b9ff66;
+}
+.text-navyBluedark
+{
+  color:#191A23;
+}
+.font-positivus
+{
+  font-family: 'Positivus', sans-serif;
+}
