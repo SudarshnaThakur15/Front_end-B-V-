@@ -8,3 +8,12 @@ body
   font-family: "Space Grotesk", sans-serif;
   width: 1440px;
 }
+@media screen and (max-width: 768px) {
+  body
+  {
+    width: 480px !important;
+    margin-left: 20px !important;
+    background-color: #F3F3F3;
+      font-family: "Space Grotesk", sans-serif;
+  }
+}

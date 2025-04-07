@@ -5,7 +5,9 @@ import App from './App.jsx'
  
 createRoot(document.getElementById('root')).render(
   <StrictMode >
-    <div><App /></div>
+    <div className='mobile'>
+      <App />
+      </div>
     
   </StrictMode>,
 )
