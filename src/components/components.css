@@ -9,5 +9,58 @@
 }
 .font-positivus
 {
-  font-family: 'Positivus', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
 }
+@media screen and (max-width: 1024px) {
+  .smallHeaderH1 {
+    text-align: center;
+    width: 100% !important;
+    padding: 0 20px;
+    display: block !important;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .smallHeaderH1 {
+    text-align: center;
+    width: 100% !important;
+    padding: 0 15px;
+    margin: 5px;
+    display: block !important;
+  }
+
+  .responsiveFlex {
+    flex-direction: column !important;
+    align-items: center;
+    padding: 0px !important;
+   
+    position: relative;
+
+  }
+
+  .responsiveImage {
+    width: 90% !important;
+    margin-left: 50% !important;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .responsiveHeadingContainer {
+    padding: 30px 20px !important;
+  }
+
+  .responsiveHeading,
+  .responsiveSubheading {
+    display: block !important;
+    margin-left: 0 !important;
+    margin-top: 20px;
+    width: 100% !important;
+    text-align: center;
+  }
+}
+/* Ensure layout breaks to new lines and centers on smaller screens */
+
+
+

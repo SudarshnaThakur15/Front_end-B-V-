@@ -1,7 +1,10 @@
 @import "tailwindcss";
-.body
+body
 {
+  
   background-color: #F3F3F3;
-  margin-top: 60px;
+  
   margin-left: 0%;
+  font-family: "Space Grotesk", sans-serif;
+  width: 1440px;
 }
