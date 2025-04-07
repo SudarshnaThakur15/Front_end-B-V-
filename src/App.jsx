@@ -1,7 +1,7 @@
 
 import { BrowserRouter } from 'react-router-dom'
 import './components/components.css'
-import Navigation from './components/navigation'
+import Navigation from './components/Navigation.jsx'
 import Header from './components/Header'
 import BrandLogo from './components/BrandLogo'
 import HeadingAndSubheading from './components/HeadingAndSubheading'
